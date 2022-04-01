@@ -44,7 +44,7 @@ all: bindings
 test: test-bindings
 clean: clean-bindings
 
-GOOS := linux
+GOOS := windows
 
 examples: $(EXAMPLE_TARGETS)
 $(EXAMPLE_TARGETS): example-%: bindings
