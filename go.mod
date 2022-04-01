@@ -1,3 +1,3 @@
-module github.com/NVIDIA/go-nvml
+module github.com/Ahuge/go-nvml
 
 go 1.15
